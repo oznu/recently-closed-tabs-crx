@@ -1,0 +1,26 @@
+{
+  "extName": {
+    "message": "Recently Closed Tabs",
+    "description": "Extention Name"
+  },
+  "extShortName": {
+    "message": "Recent Tabs",
+    "description": "Extention Short Name"
+  },
+  "extDescription": {
+    "message": "Quickly restore recently closed tabs and windows.",
+    "description": "Extention Description"
+  },
+  "popupNoRecentTabs": {
+    "message": "No recently closed tabs.",
+    "description": "Message to display when there are no recently closed tabs"
+  },
+  "popupRecentClosedTabs": {
+    "message" : "recently closed tabs.",
+    "description": "recently closed tabs message"
+  },
+  "popupOpen": {
+    "message": "Open",
+    "description": "The word 'open'"
+  }
+}

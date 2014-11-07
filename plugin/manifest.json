@@ -1,0 +1,27 @@
+{
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extShortName__",
+  "description" : "__MSG_extDescription__",
+  "version": "0.3",
+  "author": "oznu",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "permissions": [
+    "chrome://favicon/",
+    "sessions",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_popup": "templates/popup.html",
+    "default_icon": {
+      "19": "icons/icon19.png",
+      "38": "icons/icon38.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}
