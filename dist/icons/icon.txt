@@ -1,3 +1,0 @@
-Generated With: http://fa2png.io/
-Icon: fa-reply
-Colour: #336e8f

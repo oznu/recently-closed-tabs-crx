@@ -37,6 +37,7 @@ client/bower/
 
 # Generated files
 .nodemonignore
+dist.zip
 
 .nodenv-vars
 .nodenv-vars-puppet
