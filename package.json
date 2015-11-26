@@ -1,0 +1,46 @@
+{
+  "name": "recently-closed-tabs-crx",
+  "version": "1.0.0",
+  "description": "Recently Closed Tabs extension for Google Chrome",
+  "main": "index.js",
+  "scripts": {
+    "jscs": "node_modules/jscs/bin/jscs src/**/*.js",
+    "jshint": "node_modules/jshint/bin/jshint src/**/*.js"
+  },
+  "pre-commit": [
+    "jscs",
+    "jshint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oznu/recently-closed-tabs-crx.git"
+  },
+  "keywords": [
+    "google",
+    "chrome",
+    "extention",
+    "angular",
+    "browserify"
+  ],
+  "author": "oznu <dev@oz.nu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oznu/recently-closed-tabs-crx/issues"
+  },
+  "homepage": "https://chrome.google.com/webstore/detail/recently-closed-tabs/defjjdlolheeidpdgmachiobabnkbine",
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uglifycss": "^1.0.4",
+    "jscs": "^2.0.0",
+    "jshint": "^2.8.0",
+    "pre-commit": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
