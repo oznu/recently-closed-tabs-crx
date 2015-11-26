@@ -2,7 +2,7 @@
   "name": "__MSG_extName__",
   "short_name": "__MSG_extShortName__",
   "description" : "__MSG_extDescription__",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "oznu",
   "manifest_version": 2,
   "default_locale": "en",
